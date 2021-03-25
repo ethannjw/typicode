@@ -1,16 +1,11 @@
 {
-    "serviceType": null,
-    "servicesTabTitle": "My Requests",
-    "services": [
-      {
-        "serviceName": "Service Feedback",
-        "serviceInstanceId": "9021",
-        "serviceStatus": "Pending",
-        "serviceDueDateInDays": "3",
-        "serviceInstanceStartDate": "2021-03-23T09:49:12Z",
-        "serviceDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      }
-    ],
-    "claimTabTitle": "My Todo",
-    "claimServices": []
+  "posts": [
+    {
+      "id": 1,
+      "title": "hello"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
