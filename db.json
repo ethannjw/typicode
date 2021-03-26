@@ -41,7 +41,7 @@
                 "items": [
                     {
                         "fieldName": "ServiceFeedbackID",
-                        "fieldType": "ShortAnswer",
+                        "fieldType": "shortAnswer",
                         "fieldValue": "ssd",
                         "fieldIsProcessDesc": true,
                         "fieldOptions": {
@@ -55,7 +55,7 @@
                     },
                     {
                         "fieldName": "ServiceFeedbackName",
-                        "fieldType": "Paragraph",
+                        "fieldType": "paragraph",
                         "fieldValue": "ssd",
                         "fieldIsProcessDesc": false,
                         "fieldOptions": {
@@ -69,7 +69,7 @@
                     },
                     {
                         "fieldName": "ServiceFeedbackRating",
-                        "fieldType": "MultipleChoice",
+                        "fieldType": "multipleChoice",
                         "fieldValue": "1",
                         "fieldIsProcessDesc": false,
                         "fieldOptions": {
@@ -87,7 +87,7 @@
                     },
                     {
                         "fieldName": "ServiceComments",
-                        "fieldType": "CheckBoxes",
+                        "fieldType": "checkBoxes",
                         "fieldValue": "false",
                         "fieldIsProcessDesc": false,
                         "fieldOptions": {
@@ -101,7 +101,7 @@
                     },
                     {
                         "fieldName": "ServiceGoodBad",
-                        "fieldType": "DropDown",
+                        "fieldType": "dropDown",
                         "fieldValue": "Good",
                         "fieldIsProcessDesc": false,
                         "fieldOptions": {
@@ -127,7 +127,7 @@
                 "items": [
                     {
                         "fieldName": "ServiceComments",
-                        "fieldType": "Paragraph",
+                        "fieldType": "paragraph",
                         "fieldValue": "ssd",
                         "fieldIsProcessDesc": true,
                         "fieldOptions": {
