@@ -26,35 +26,125 @@
       },
     "services": 
     {
-        "serviceName": "IT Requestor", 
-        "serviceInstanceId": "9351", 
-        "serviceStatus": "Pending", 
-        "serviceDueDateInDays": "0", 
-        "serviceDesc": "null",
-        "serviceInstanceStartDate": "2021-03-26T05:19:58Z",
+        "serviceName": "Service Feedback",
+        "serviceInstanceId": "9184",
+        "serviceStatus": "Pending",
+        "serviceDueDateInDays": "3",
+        "serviceInstanceStartDate": "2021-03-25T06:28:06Z",
+        "serviceDesc": "ssd",
         "tasks": [
             {
-                "taskCompletedTime": "null",
-                "taskId": "10849",
-                "taskOwner": "null",
-                "taskStatus": "Completed"
+                "taskId": "10663",
+                "taskCompletedTime": "2021-03-25T06:28:15Z",
+                "taskStatus": "Completed",
+                "taskOwner": "jdunn",
+                "items": [
+                    {
+                        "fieldName": "ServiceFeedbackID",
+                        "fieldType": "ShortAnswer",
+                        "fieldValue": "ssd",
+                        "fieldIsProcessDesc": true,
+                        "fieldOptions": {
+                            "items": [
+                                {
+                                    "fieldLabel": "",
+                                    "fieldValue": ""
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "fieldName": "ServiceFeedbackName",
+                        "fieldType": "Paragraph",
+                        "fieldValue": "ssd",
+                        "fieldIsProcessDesc": false,
+                        "fieldOptions": {
+                            "items": [
+                                {
+                                    "fieldLabel": "",
+                                    "fieldValue": ""
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "fieldName": "ServiceFeedbackRating",
+                        "fieldType": "MultipleChoice",
+                        "fieldValue": "1",
+                        "fieldIsProcessDesc": false,
+                        "fieldOptions": {
+                            "items": [
+                                {
+                                    "fieldLabel": "1",
+                                    "fieldValue": "1"
+                                },
+                                {
+                                    "fieldLabel": "2",
+                                    "fieldValue": "2"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "fieldName": "ServiceComments",
+                        "fieldType": "CheckBoxes",
+                        "fieldValue": "false",
+                        "fieldIsProcessDesc": false,
+                        "fieldOptions": {
+                            "items": [
+                                {
+                                    "fieldLabel": "",
+                                    "fieldValue": ""
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "fieldName": "ServiceGoodBad",
+                        "fieldType": "DropDown",
+                        "fieldValue": "Good",
+                        "fieldIsProcessDesc": false,
+                        "fieldOptions": {
+                            "items": [
+                                {
+                                    "fieldLabel": "Good",
+                                    "fieldValue": "Good"
+                                },
+                                {
+                                    "fieldLabel": "Bad",
+                                    "fieldValue": "Bad"
+                                }
+                            ]
+                        }
+                    }
+                ]
             },
             {
-                "taskCompletedTime": "null",
-                "taskId": "10850",
-                "taskOwner": "null",
-                "taskStatus": "Pending"
-            },
-            {
-                "taskCompletedTime": "2021-03-26T05:19:58Z",
-                "taskId": "10851",
-                "taskOwner": "elena",
-                "taskStatus": "Form Submitted",
-                "taskFields": {
-                    
-                }
+                "taskId": "10664",
+                "taskCompletedTime": null,
+                "taskStatus": "Pending",
+                "taskOwner": null,
+                "items": [
+                    {
+                        "fieldName": "ServiceComments",
+                        "fieldType": "Paragraph",
+                        "fieldValue": "ssd",
+                        "fieldIsProcessDesc": true,
+                        "fieldOptions": {
+                            "items": [
+                                {
+                                    "fieldLabel": "",
+                                    "fieldValue": ""
+                                }
+                            ]
+                        }
+                    }
+                ]
             }
-            
+        ],
+        "CTAButtons": [
+            "Approve",
+            "Reject"
         ]
     },
     "fields" : {"taskDisplayName":"Step: Submit Service Feedback","processInstanceId":"9361","taskId":"10859","items":[{"fieldName":"ServiceFeedbackID","fieldType":"shortAnswer","fieldValue":"","fieldIsProcessDesc":true,"fieldOptions":{"items":[{"fieldLabel":"","fieldValue":""}]}},{"fieldName":"ServiceFeedbackName","fieldType":"paragraph","fieldValue":"","fieldIsProcessDesc":false,"fieldOptions":{"items":[{"fieldLabel":"","fieldValue":""}]}},{"fieldName":"ServiceFeedbackRating","fieldType":"multipleChoice","fieldValue":"","fieldIsProcessDesc":false,"fieldOptions":{"items":[{"fieldLabel":"1","fieldValue":"1"},{"fieldLabel":"2","fieldValue":"2"}]}},{"fieldName":"ServiceComments","fieldType":"checkBoxes","fieldValue":"false","fieldIsProcessDesc":false,"fieldOptions":{"items":[{"fieldLabel":"","fieldValue":""}]}},{"fieldName":"ServiceGoodBad","fieldType":"dropDown","fieldValue":"","fieldIsProcessDesc":false,"fieldOptions":{"items":[{"fieldLabel":"Good","fieldValue":"Good"},{"fieldLabel":"Bad","fieldValue":"Bad"}]}}]}
