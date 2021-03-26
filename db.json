@@ -56,5 +56,6 @@
             }
             
         ]
-    }
+    },
+    "fields" : {"taskDisplayName":"Step: Submit Service Feedback","processInstanceId":"9361","taskId":"10859","items":[{"fieldName":"ServiceFeedbackID","fieldType":"shortAnswer","fieldValue":"","fieldIsProcessDesc":true,"fieldOptions":{"items":[{"fieldLabel":"","fieldValue":""}]}},{"fieldName":"ServiceFeedbackName","fieldType":"paragraph","fieldValue":"","fieldIsProcessDesc":false,"fieldOptions":{"items":[{"fieldLabel":"","fieldValue":""}]}},{"fieldName":"ServiceFeedbackRating","fieldType":"multipleChoice","fieldValue":"","fieldIsProcessDesc":false,"fieldOptions":{"items":[{"fieldLabel":"1","fieldValue":"1"},{"fieldLabel":"2","fieldValue":"2"}]}},{"fieldName":"ServiceComments","fieldType":"checkBoxes","fieldValue":"false","fieldIsProcessDesc":false,"fieldOptions":{"items":[{"fieldLabel":"","fieldValue":""}]}},{"fieldName":"ServiceGoodBad","fieldType":"dropDown","fieldValue":"","fieldIsProcessDesc":false,"fieldOptions":{"items":[{"fieldLabel":"Good","fieldValue":"Good"},{"fieldLabel":"Bad","fieldValue":"Bad"}]}}]}
 }
