@@ -31,7 +31,7 @@
         "serviceStatus": "Pending", 
         "serviceDueDateInDays": "0", 
         "serviceDesc": "null",
-        "serviceInstanceStartDate": "2021-03-26T05:19:58Z", 
+        "serviceInstanceStartDate": "2021-03-26T05:19:58Z",
         "tasks": [
             {
                 "taskCompletedTime": "null",
