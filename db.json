@@ -30,7 +30,7 @@
         "serviceInstanceId": "9351", 
         "serviceStatus": "Pending", 
         "serviceDueDateInDays": "0", 
-        "serviceDesc": null,
+        "serviceDesc": "null",
         "serviceInstanceStartDate": "2021-03-26T05:19:58Z", 
         "tasks": [
             {
