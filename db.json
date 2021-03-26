@@ -24,7 +24,36 @@
           }
         ]
       },
-    "services": {
-        "test" : "test"
-    }
+    "services": 
+    {
+        serviceName: "IT Requestor", 
+        serviceInstanceId: "9351", 
+        serviceStatus: "Pending", 
+        serviceDueDateInDays: "0", 
+        serviceDesc: null,
+        serviceInstanceStartDate: "2021-03-26T05:19:58Z", 
+        tasks: [
+            {
+                taskCompletedTime: null,
+                taskId: "10849",
+                taskOwner: null,
+                taskStatus: "Completed"
+            },
+            {
+                taskCompletedTime: null,
+                taskId: "10850",
+                taskOwner: null,
+                taskStatus: "Pending"
+            },
+            {
+                taskCompletedTime: "2021-03-26T05:19:58Z",
+                taskId: "10851",
+                taskOwner: "elena",
+                taskStatus: "Form Submitted",
+                taskFields: {
+                    
+                }
+            }
+            
+        ]
 }
