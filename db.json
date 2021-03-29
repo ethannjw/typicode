@@ -147,7 +147,7 @@
             "Approve",
             "Reject"
         ]
-    }}},
+    },
     "fields" : 
     {
       "taskDisplayName":"Step: Submit Service Feedback",
