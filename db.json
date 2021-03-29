@@ -25,7 +25,7 @@
         }
       ]
     },
-    "services": 
+    "services": {"instances": { "9021":
     {
         "serviceName": "Service Feedback",
         "serviceInstanceId": "9184",
@@ -147,7 +147,7 @@
             "Approve",
             "Reject"
         ]
-    },
+    }}},
     "fields" : 
     {
       "taskDisplayName":"Step: Submit Service Feedback",
@@ -245,10 +245,10 @@
         }
       ]
     },
-    "user": {
+    "auth": { "login": {
       "token": "sjugbisdugbweg",
       "name": "mockuser"
 
     }
-  
+  }  
 }
