@@ -1,7 +1,7 @@
 { 
     "landing" : 
     {
-      "serviceType": null,
+      "serviceType": "APPROVER",
       "servicesTabTitle": "My Requests",
       "services": [
         {
@@ -25,33 +25,7 @@
         }
       ]
     },
-    "services": {
-      "user": {
-        "serviceType": "APPROVER",
-        "servicesTabTitle": "My Requests",
-        "services": [
-          {
-            "serviceName": "Service Feedback",
-            "serviceInstanceId": "9021",
-            "serviceStatus": "Pending",
-            "serviceDueDateInDays": "3",
-            "serviceInstanceStartDate": "2021-03-23T09:49:12Z",
-            "serviceDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          }
-        ],
-        "claimTabTitle": "My Todo",
-        "claimServices": [
-            {
-            "serviceName": "Claim Service",
-            "serviceInstanceId": "9021",
-            "serviceStatus": "Pending",
-            "serviceDueDateInDays": "3",
-            "serviceInstanceStartDate": "2021-03-23T09:49:12Z",
-            "serviceDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          }
-        ]
-      },
-      "instances": { "9021":
+    "services": 
       {
         "serviceName": "Service Feedback",
         "serviceInstanceId": "9184",
