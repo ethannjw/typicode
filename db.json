@@ -1,29 +1,30 @@
 { 
-    "landing" : {
-        "serviceType": null,
-        "servicesTabTitle": "My Requests",
-        "services": [
+    "landing" : 
+    {
+      "serviceType": null,
+      "servicesTabTitle": "My Requests",
+      "services": [
+        {
+          "serviceName": "Service Feedback",
+          "serviceInstanceId": "9021",
+          "serviceStatus": "Pending",
+          "serviceDueDateInDays": "3",
+          "serviceInstanceStartDate": "2021-03-23T09:49:12Z",
+          "serviceDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+      ],
+      "claimTabTitle": "My Todo",
+      "claimServices": [
           {
-            "serviceName": "Service Feedback",
-            "serviceInstanceId": "9021",
-            "serviceStatus": "Pending",
-            "serviceDueDateInDays": "3",
-            "serviceInstanceStartDate": "2021-03-23T09:49:12Z",
-            "serviceDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          }
-        ],
-        "claimTabTitle": "My Todo",
-        "claimServices": [
-           {
-            "serviceName": "Claim Service",
-            "serviceInstanceId": "9021",
-            "serviceStatus": "Pending",
-            "serviceDueDateInDays": "3",
-            "serviceInstanceStartDate": "2021-03-23T09:49:12Z",
-            "serviceDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          }
-        ]
-      },
+          "serviceName": "Claim Service",
+          "serviceInstanceId": "9021",
+          "serviceStatus": "Pending",
+          "serviceDueDateInDays": "3",
+          "serviceInstanceStartDate": "2021-03-23T09:49:12Z",
+          "serviceDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+      ]
+    },
     "services": 
     {
         "serviceName": "Service Feedback",
@@ -147,23 +148,94 @@
             "Reject"
         ]
     },
-    "fields" : {"taskDisplayName":"Step: Submit Service Feedback","processInstanceId":"9361","taskId":"10859","items":[{"fieldName":"ServiceFeedbackID","fieldType":"shortAnswer","fieldValue":"","fieldIsProcessDesc":true,"fieldOptions":{"items":[{"fieldLabel":"","fieldValue":""}]}},{"fieldName":"ServiceFeedbackName","fieldType":"paragraph","fieldValue":"","fieldIsProcessDesc":false,"fieldOptions":{"items":[{"fieldLabel":"","fieldValue":""}]}},{"fieldName":"ServiceFeedbackRating","fieldType":"multipleChoice","fieldValue":"","fieldIsProcessDesc":false,"fieldOptions":{"items":[{"fieldLabel":"1","fieldValue":"1"},{"fieldLabel":"2","fieldValue":"2"}]}},{"fieldName":"ServiceComments","fieldType":"checkBoxes","fieldValue":"false","fieldIsProcessDesc":false,"fieldOptions":{"items":[{"fieldLabel":"","fieldValue":""}]}},{"fieldName":"ServiceGoodBad","fieldType":"dropDown","fieldValue":"","fieldIsProcessDesc":false,"fieldOptions":{"items":[{"fieldLabel":"Good","fieldValue":"Good"},{"fieldLabel":"Bad","fieldValue":"Bad"}]}}]},
+    "fields" : 
+    {
+      "taskDisplayName":"Step: Submit Service Feedback",
+      "processInstanceId":"9361",
+      "taskId":"10859",
+      "items":
+      [
+        {
+          "fieldName":"ServiceFeedbackID",
+          "fieldType":"shortAnswer",
+          "fieldValue":"",
+          "fieldIsProcessDesc":true,
+          "fieldOptions":
+          {
+            "items":
+            [
+              {
+                "fieldLabel":"",
+                "fieldValue":""
+              }
+            ]
+          }
+        },
+          {
+            "fieldName":"ServiceFeedbackName",
+            "fieldType":"paragraph",
+            "fieldValue":"",
+            "fieldIsProcessDesc":false,
+            "fieldOptions":
+          {
+            "items":
+            [
+              {
+                "fieldLabel":"",
+                "fieldValue":""
+              }
+            ]
+          }
+        },
+        {
+          "fieldName":"ServiceFeedbackRating",
+          "fieldType":"multipleChoice",
+          "fieldValue":"",
+          "fieldIsProcessDesc":false,
+          "fieldOptions":
+          {
+            "items":
+              [
+                { "fieldLabel":"1", "fieldValue":"1"  },
+                { "fieldLabel":"2", "fieldValue":"2"  }
+              ]
+          }
+        },
+        {
+          "fieldName":"ServiceComments",
+          "fieldType":"checkBoxes",
+          "fieldValue":"false",
+          "fieldIsProcessDesc":false,
+          "fieldOptions":
+            {
+              "items":
+              [
+                {"fieldLabel":"","fieldValue":""}
+              ]
+          }
+        },
+        {
+          "fieldName":"ServiceGoodBad",
+          "fieldType":"dropDown",
+          "fieldValue":"",
+          "fieldIsProcessDesc":false,
+          "fieldOptions":
+          {
+            "items":[
+              {"fieldLabel":"Good","fieldValue":"Good"},
+              {"fieldLabel":"Bad","fieldValue":"Bad"}
+            ]
+          }
+        }
+      ]
+    },
+
     "approvedServiceCategories": {
       "functions": [
         {
           "name": "Default",
           "icon": "IconName",
           "services": [
-            {
-              "name": "Procurement Sample",
-              "serviceId": "2066.1052c1c9-0b2c-42d3-a2bd-cd73e6c89f9b",
-              "startUrl": "/rest/bpm/wle/v1/process?action=start&bpdId=25.9f97aaa3-3795-4450-a9ff-b6e3fadf4f6f&branchId=2063.e36f0dc3-9077-4c56-b125-63dcb8e4ae3f"
-            },
-            {
-              "name": "Hiring Sample Advanced",
-              "serviceId": "2066.1c793d64-d2bd-4302-a847-25a98f37c561",
-              "startUrl": "/rest/bpm/wle/v1/process?action=start&bpdId=25.12df730b-3c1f-4658-98c9-cb99eefbc9ad&branchId=2063.6d3b84c0-bf15-4878-84ba-e6ab9041432d"
-            },
             {
               "name": "Service Feedback",
               "serviceId": "2066.e01cffe4-2cff-43a6-b444-dbcaa9cdc630",
@@ -172,6 +244,11 @@
           ]
         }
       ]
+    },
+    "user": {
+      "token": "sjugbisdugbweg",
+      "name": "mockuser"
+
     }
   
 }
