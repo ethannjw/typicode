@@ -148,4 +148,80 @@
         ]
     },
     "fields" : {"taskDisplayName":"Step: Submit Service Feedback","processInstanceId":"9361","taskId":"10859","items":[{"fieldName":"ServiceFeedbackID","fieldType":"shortAnswer","fieldValue":"","fieldIsProcessDesc":true,"fieldOptions":{"items":[{"fieldLabel":"","fieldValue":""}]}},{"fieldName":"ServiceFeedbackName","fieldType":"paragraph","fieldValue":"","fieldIsProcessDesc":false,"fieldOptions":{"items":[{"fieldLabel":"","fieldValue":""}]}},{"fieldName":"ServiceFeedbackRating","fieldType":"multipleChoice","fieldValue":"","fieldIsProcessDesc":false,"fieldOptions":{"items":[{"fieldLabel":"1","fieldValue":"1"},{"fieldLabel":"2","fieldValue":"2"}]}},{"fieldName":"ServiceComments","fieldType":"checkBoxes","fieldValue":"false","fieldIsProcessDesc":false,"fieldOptions":{"items":[{"fieldLabel":"","fieldValue":""}]}},{"fieldName":"ServiceGoodBad","fieldType":"dropDown","fieldValue":"","fieldIsProcessDesc":false,"fieldOptions":{"items":[{"fieldLabel":"Good","fieldValue":"Good"},{"fieldLabel":"Bad","fieldValue":"Bad"}]}}]}
+    "approvedServiceCategories": {
+      "functions": [
+        {
+          "name": "Default",
+          "icon": "IconName",
+          "services": [
+            {
+              "name": "Procurement Sample",
+              "serviceId": "2066.1052c1c9-0b2c-42d3-a2bd-cd73e6c89f9b",
+              "startUrl": "/rest/bpm/wle/v1/process?action=start&bpdId=25.9f97aaa3-3795-4450-a9ff-b6e3fadf4f6f&branchId=2063.e36f0dc3-9077-4c56-b125-63dcb8e4ae3f"
+            },
+            {
+              "name": "Hiring Sample Advanced",
+              "serviceId": "2066.1c793d64-d2bd-4302-a847-25a98f37c561",
+              "startUrl": "/rest/bpm/wle/v1/process?action=start&bpdId=25.12df730b-3c1f-4658-98c9-cb99eefbc9ad&branchId=2063.6d3b84c0-bf15-4878-84ba-e6ab9041432d"
+            },
+            {
+              "name": "ECM",
+              "serviceId": "2066.2f0d8af4-b7d2-4c22-b27e-65a7b0281d45",
+              "startUrl": "/rest/bpm/wle/v1/process?action=start&bpdId=25.f5d3c8e9-fb22-40bc-ad44-70901b23b106&branchId=2063.84fc8a42-2d66-4f4e-98f7-f868fa9a2811"
+            },
+            {
+              "name": "QuickPay",
+              "serviceId": "2066.36f075ac-b678-4106-b9e2-d1fd7f90824d",
+              "startUrl": "/rest/bpm/wle/v1/process?action=start&bpdId=25.d56d16a5-d084-4a64-a95a-1893a5684324&branchId=2063.ae96f62c-2b78-4fb2-83c9-b317faf5722d"
+            },
+            {
+              "name": "Account Opening",
+              "serviceId": "2066.3a1d6915-104e-43e9-8f21-d35feac275ec",
+              "startUrl": "/rest/bpm/wle/v1/process?action=start&bpdId=25.61190d3f-f2b2-41b9-85b8-a963ba000c5d&branchId=2063.901a1ec5-a1d3-434f-967c-898247f5eeda"
+            },
+            {
+              "name": "Sales",
+              "serviceId": "2066.77bd8543-cd26-4f80-9293-b7e979be38cf",
+              "startUrl": "/rest/bpm/wle/v1/process?action=start&bpdId=25.bf7d9f1e-32e3-4685-bb74-d64603434021&branchId=2063.1c01e9c3-de2b-4786-b3ad-75ffe1ee338c"
+            },
+            {
+              "name": "Sales Lead App",
+              "serviceId": "2066.9665c579-f30a-48e4-b7cc-ddbd0c087115",
+              "startUrl": "/rest/bpm/wle/v1/process?action=start&bpdId=25.4f8b63be-5cc1-47ac-84e2-a21228deb4cd&branchId=2063.9435edeb-3c76-4ebd-b5c7-2c0f4264b80a"
+            },
+            {
+              "name": "Hiring Sample",
+              "serviceId": "2066.9ab0d0c6-d92c-4355-9ed5-d8a05acdc4b0",
+              "startUrl": "/rest/bpm/wle/v1/process?action=start&bpdId=25.c904b3b1-afc1-4698-bf5a-a20892c20275&branchId=2063.1a52abd6-b068-4f9e-91a9-ded9793eb34e"
+            },
+            {
+              "name": "RetailBanking",
+              "serviceId": "2066.a3ef1dbd-f556-4d00-98a5-729c16a65581",
+              "startUrl": "/rest/bpm/wle/v1/process?action=start&bpdId=25.57ec5260-1105-4dd4-bf93-549a4b8bce58&branchId=2063.a2606f27-b38d-43da-aa2f-b6465c794135"
+            },
+            {
+              "name": "Obtain Discharge Summary",
+              "serviceId": "2066.daf7fc00-0c97-4843-b0f4-d42b8840d20a",
+              "startUrl": "/rest/bpm/wle/v1/process?action=start&bpdId=25.97e8addb-9366-4c80-964d-592c35596513&branchId=2063.01dbc7f1-6180-4e19-ac40-714317b7b418"
+            },
+            {
+              "name": "Payments Processing Sample",
+              "serviceId": "2066.dd4117b3-5a61-42d4-a9d0-2b4830b94199",
+              "startUrl": "/rest/bpm/wle/v1/process?action=start&bpdId=25.48a1378a-c861-4f3a-b909-e38a9d7a1ac6&branchId=2063.ea0dbdd5-75ad-44ed-af7f-49b8dbe41e07"
+            },
+            {
+              "name": "Test ProcessApp",
+              "serviceId": "2066.dd842575-5136-4b9a-9946-d07cc4aace47",
+              "startUrl": "/rest/bpm/wle/v1/process?action=start&bpdId=25.370b6993-40d0-4b91-a534-884576f3b63d&branchId=2063.05adb8ab-4542-4698-9813-e342a01ac53d"
+            },
+            {
+              "name": "Service Feedback",
+              "serviceId": "2066.e01cffe4-2cff-43a6-b444-dbcaa9cdc630",
+              "startUrl": "/rest/bpm/wle/v1/process?action=start&bpdId=25.dcbe7871-2f40-464e-aefc-724ab6bdcfea&branchId=2063.ac803522-14b2-46cf-9641-6797f0724d61"
+            }
+          ]
+        }
+      ]
+    }
+  
 }
