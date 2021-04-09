@@ -26,7 +26,7 @@
       ]
     },
     "services": 
-      {
+    {
         "serviceName": "Service Feedback",
         "serviceInstanceId": "9184",
         "serviceStatus": "Pending",
@@ -154,129 +154,127 @@
         }
       ]
     },
-    "fields" : 
-    {
+    "fields" : {
       "taskDisplayName":"Step: Submit Service Feedback",
       "processInstanceId":"9361",
       "taskId":"10859",
-      "items":
-      [
+      "items":[
+      {
+        "fieldName":"ServiceFeedbackID",
+        "fieldType":"shortAnswer",
+        "fieldValue":"",
+        "fieldIsProcessDesc":true,
+        "fieldOptions":
         {
-          "fieldName":"ServiceFeedbackID",
-          "fieldType":"shortAnswer",
-          "fieldValue":"",
-          "fieldIsProcessDesc":true,
-          "fieldOptions":
-          {
-            "items":
-            [
-              {
-                "fieldLabel":"",
-                "fieldValue":""
-              }
-            ]
-          }
-        },
-          {
-            "fieldName":"ServiceFeedbackName",
-            "fieldType":"paragraph",
-            "fieldValue":"",
-            "fieldIsProcessDesc":false,
-            "fieldOptions":
-          {
-            "items":
-            [
-              {
-                "fieldLabel":"",
-                "fieldValue":""
-              }
-            ]
-          }
-        },
-        {
-          "fieldName":"ServiceFeedbackRating",
-          "fieldType":"multipleChoice",
-          "fieldValue":"",
-          "fieldIsProcessDesc":false,
-          "fieldOptions":
-          {
-            "items":
-              [
-                { "fieldLabel":"1", "fieldValue":"1"  },
-                { "fieldLabel":"2", "fieldValue":"2"  }
-              ]
-          }
-        },
-        {
-          "fieldName":"ServiceComments",
-          "fieldType":"checkBoxes",
-          "fieldValue":"false",
-          "fieldIsProcessDesc":false,
-          "fieldOptions":
+          "items":
+          [
             {
-              "items":
-              [
-                {"fieldLabel":"","fieldValue":""}
-              ]
-          }
-        },
-        {
-          "fieldName":"ServiceGoodBad",
-          "fieldType":"dropDown",
-          "fieldValue":"",
-          "fieldIsProcessDesc":false,
-          "fieldOptions":
-          {
-            "items":[
-              {"fieldLabel":"Good","fieldValue":"Good"},
-              {"fieldLabel":"Bad","fieldValue":"Bad"}
-            ]
-          }
-        }
-      ]
-    },
-
-    "approvedServiceCategories": {
-      "functions": [
-        {
-          "name": "Default",
-          "icon": "IconName",
-          "services": [
-            {
-              "name": "Service Feedback",
-              "serviceId": "2066.e01cffe4-2cff-43a6-b444-dbcaa9cdc630",
-              "startUrl": "/rest/bpm/wle/v1/process?action=start&bpdId=25.dcbe7871-2f40-464e-aefc-724ab6bdcfea&branchId=2063.ac803522-14b2-46cf-9641-6797f0724d61"
+              "fieldLabel":"",
+              "fieldValue":""
             }
           ]
         }
-      ]
-    },
-    "auth": { "login": {
-      "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqZHVubiIsInJvbGUiO…1Mjd9.2aRi-ItaIkCOb2s3GaJoS8uvh2bhB63mIqGM8ZiUq4g",
-      "name": "mockuser"
-
-    },
-    "getusers": {
-      "items": [
-        {
-          "fieldLabel": "Alfred Tay Wen Jie",
-          "fieldValue": "alfred"
-        },
-        {
-          "fieldLabel": "Julien Maillot",
-          "fieldValue": "julien"
-        }
-      ]
-    },
-    "postUser": {
-      "service" : {
-        "serviceName": "Service Feedback",
-        "serviceInstanceId": "9021",
-        "serviceStatus": "Pending",
-        "serviceDueDateInDays": "3",
-        "serviceInstanceStartDate": "2021-03-23T09:49:12Z",
-        "serviceDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      {
+        "fieldName":"ServiceFeedbackName",
+        "fieldType":"paragraph",
+        "fieldValue":"",
+        "fieldIsProcessDesc":false,
+        "fieldOptions":
+      {
+        "items":
+        [
+          {
+            "fieldLabel":"",
+            "fieldValue":""
+          }
+        ]
       }
+      },
+      {
+        "fieldName":"ServiceFeedbackRating",
+        "fieldType":"multipleChoice",
+        "fieldValue":"",
+        "fieldIsProcessDesc":false,
+        "fieldOptions":
+        {
+          "items":
+            [
+              { "fieldLabel":"1", "fieldValue":"1"  },
+              { "fieldLabel":"2", "fieldValue":"2"  }
+            ]
+        }
+      },
+      {
+        "fieldName":"ServiceComments",
+        "fieldType":"checkBoxes",
+        "fieldValue":"false",
+        "fieldIsProcessDesc":false,
+        "fieldOptions":
+          {
+            "items":
+            [
+              {"fieldLabel":"","fieldValue":""}
+            ]
+        }
+      },
+      {
+        "fieldName":"ServiceGoodBad",
+        "fieldType":"dropDown",
+        "fieldValue":"",
+        "fieldIsProcessDesc":false,
+        "fieldOptions":
+        {
+          "items":[
+            {"fieldLabel":"Good","fieldValue":"Good"},
+            {"fieldLabel":"Bad","fieldValue":"Bad"}
+          ]
+        }
+      }
+    ]
+  },
+
+  "approvedServiceCategories": {
+    "functions": [
+      {
+        "name": "Default",
+        "icon": "IconName",
+        "services": [
+          {
+            "name": "Service Feedback",
+            "serviceId": "2066.e01cffe4-2cff-43a6-b444-dbcaa9cdc630",
+            "startUrl": "/rest/bpm/wle/v1/process?action=start&bpdId=25.dcbe7871-2f40-464e-aefc-724ab6bdcfea&branchId=2063.ac803522-14b2-46cf-9641-6797f0724d61"
+          }
+        ]
+      }
+    ]
+  },
+  "auth": { "login": {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqZHVubiIsInJvbGUiO…1Mjd9.2aRi-ItaIkCOb2s3GaJoS8uvh2bhB63mIqGM8ZiUq4g",
+    "name": "mockuser"
+
     }
-  }  
+  },
+  "getusers": {
+    "items": [
+      {
+        "fieldLabel": "Alfred Tay Wen Jie",
+        "fieldValue": "alfred"
+      },
+      {
+        "fieldLabel": "Julien Maillot",
+        "fieldValue": "julien"
+      }
+    ]
+  },
+  "postUser": {
+    "service" : {
+      "serviceName": "Service Feedback",
+      "serviceInstanceId": "9021",
+      "serviceStatus": "Pending",
+      "serviceDueDateInDays": "3",
+      "serviceInstanceStartDate": "2021-03-23T09:49:12Z",
+      "serviceDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
+  }
 }
