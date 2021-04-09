@@ -255,6 +255,18 @@
       "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqZHVubiIsInJvbGUiO…1Mjd9.2aRi-ItaIkCOb2s3GaJoS8uvh2bhB63mIqGM8ZiUq4g",
       "name": "mockuser"
 
+    },
+    "getusers": {
+      "items": [
+        {
+          "fieldLabel": "Alfred Tay Wen Jie",
+          "fieldValue": "alfred"
+        },
+        {
+          "fieldLabel": "Julien Maillot",
+          "fieldValue": "julien"
+        }
+      ]
     }
   }  
 }
