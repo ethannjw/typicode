@@ -232,6 +232,20 @@
               {"fieldLabel":"Bad","fieldValue":"Bad"}
             ]
           }
+        },
+        {
+          "fieldName":"fileUpload",
+            "fieldLabel":"File Upload",
+          "fieldType":"fileUpload",
+          "fieldValue":"",
+          "fieldIsProcessDesc":false,
+          "fieldOptions":
+          {
+            "items":[
+              {"fieldLabel":"Good","fieldValue":"Good"},
+              {"fieldLabel":"Bad","fieldValue":"Bad"}
+            ]
+          }
         }
       ]
     },
